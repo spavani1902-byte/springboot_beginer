@@ -27,12 +27,12 @@ nav a {
  .navbar {
     background-color: hsl(183, 55%, 39%);
     overflow: hidden;
+    size
 }
 .navbar a{
     background-color: hsl(191, 53%, 41%);
-     overflow: hidden; 
-     text-decoration: none;
-     color: white;  
+    text-decoration: none;
+    color: white;
     padding: 10px;
 }
 .navbar a:hover{
@@ -40,7 +40,6 @@ nav a {
     color: black;
 } 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }

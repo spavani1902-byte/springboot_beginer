@@ -1,7 +1,7 @@
 h1 {
     color: red;
 }
-nav {
+/* nav {
     background: #1ba3a8;
     padding: 15px;
 }
@@ -23,4 +23,24 @@ nav a {
     padding: 10px;
     margin-left: 20px;
     text-align: center;
+} */
+ .navbar {
+    background-color: hsl(183, 55%, 39%);
+    overflow: hidden;
+}
+.navbar a{
+    background-color: hsl(191, 53%, 41%);
+     overflow: hidden; 
+     text-decoration: none;
+     color: white;  
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color: #bf2020;
+    color: black;
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }

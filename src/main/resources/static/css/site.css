@@ -27,7 +27,9 @@ nav a {
  .navbar {
     background-color: hsl(183, 55%, 39%);
     overflow: hidden;
-    size
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .navbar a{
     background-color: hsl(191, 53%, 41%);

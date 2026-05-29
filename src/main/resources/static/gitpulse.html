@@ -427,7 +427,7 @@ body {
 @media(max-width:640px){ .metrics-strip { grid-template-columns: repeat(2,1fr); } }
 
 .metric-card {
-  background: var(--white);
+  background: var(--white); 
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   padding: 18px 20px;
@@ -862,10 +862,19 @@ footer a:hover { text-decoration: underline; }
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 </style>
+<link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
 
 <!-- SEARCH PAGE -->
+ <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/card.html">Card</a>
+        <a href="/toggle.html">Toggle</a>
+        <a href="/random.html">Random User</a>
+        <a href="/gitpulse.html">GitPulse</a>
+    </div>
 <div id="search-page">
   <div class="logo-area">
     <div class="logo-wordmark">

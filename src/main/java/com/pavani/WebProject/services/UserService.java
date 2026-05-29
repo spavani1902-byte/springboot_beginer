@@ -1,6 +1,10 @@
 package com.pavani.WebProject.services;
 import java.util.*;
+
+import org.springframework.stereotype.Service;
+
 import com.pavani.WebProject.model.User;
+@Service
 public class UserService {
     private List<User> allUsers;
 

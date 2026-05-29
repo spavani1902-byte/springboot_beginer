@@ -1,4 +1,6 @@
 package com.pavani.WebProject.controllers;
+import java.util.List;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +15,7 @@ public class UserController {
         userService=new UserService();
     }
     @GetMapping
-    public ResponseEntity getAllUsers(){
+    public ResponseEntity<List<User>> getAllUsers(){
         return ResponseEntity.ok(userService.getAllUsers());
     }
 }

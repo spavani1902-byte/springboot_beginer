@@ -10,27 +10,27 @@ public class User {
 
     }
     //Parameterized constructor
-    public User(String name, String image, String gender, Integer id) {
+    public User(String name, String gender, String image, Integer id) {
         this.name = name;
-        this.image = image;
         this.gender = gender;
+        this.image = image;
         this.id = id;
     }
     //Getters and Setters
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getImage() {
-        return image;
+        return this.image;
     }
 
     public String getGender() {
-        return gender;
+        return this.gender;
     }
 
     public Integer getId() {
-        return id;
+        return this.id;
     }
     public void setName(String name) {
         this.name = name;
